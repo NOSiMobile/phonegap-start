@@ -3,3 +3,15 @@
 position: relative;
 top: 0px;
 }
+ui-header .ui-title, .ui-footer .ui-title {
+min-height: 1.1em;
+text-align: left;
+font-size: 16px;
+display: block;
+margin: .6em 30% .8em;
+padding: 0;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+outline: 0!important;
+}
